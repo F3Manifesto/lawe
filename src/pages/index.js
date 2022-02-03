@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Router } from 'next/router'
 import Head from 'next/head'
+import RegratsTitleCard from '@components/RugratsTitleCard'
 import styles from './styles.module.scss'
 
 const LandingPage = () => {
@@ -63,7 +64,9 @@ const LandingPage = () => {
       </section>
 
       <section className={styles.contentWrapper}>
-        
+        <a href='/tunein'>
+        <RegratsTitleCard title='write TUNE IN' />
+        </a>
       </section>
       
     </div>

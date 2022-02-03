@@ -26,7 +26,6 @@ export default function configureStore(preloadState) {
       applyMiddleware(createSentryMiddleware(Sentry)),
     )),
   )
-
   // IF REDUCERS WERE CHANGED, RELOAD WITH INITIAL STATE
   if (module.hot) {
     module.hot.accept('./reducers', () => {
@@ -34,6 +33,6 @@ export default function configureStore(preloadState) {
       store.replaceReducer(createNextReducer(preloadState))
     })
   }
-
+  // console.log('preloadState...', preloadState)
   return store
 }

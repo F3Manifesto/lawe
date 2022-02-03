@@ -15,7 +15,7 @@ import Footer from '@components/layouts/footer'
 import HeaderTopLine from '@components/layouts/header-top-line'
 import FairlyContainer from '@containers/fairlyDust'
 import globalActions from '@actions/global.actions'
-// import { getIsInitialized, getIsLoading } from '@selectors/global.selectors'
+import { getIsInitialized, getIsLoading } from '@selectors/global.selectors'
 
 import getOrCreateStore from '../lib/with-redux-store'
 
@@ -24,6 +24,7 @@ import config from '../utils/config'
 import 'animate.css'
 import 'react-toastify/dist/ReactToastify.css'
 import '../assets/scss/global.scss'
+import '../styles/rug.css'
 
 
 if (config.SENTRY_DSN) {
@@ -35,7 +36,7 @@ if (config.SENTRY_DSN) {
 
 const InitWrapper = (props) => {
   const dispatch = useDispatch()
-  // const isInitialized = useSelector(getIsInitialized)
+  const isInitialized = useSelector(getIsInitialized)
 
   useEffect(() => {
     dispatch(globalActions.initApp())
@@ -80,7 +81,7 @@ const MyApp = ({ Component, pageProps, store, err }) => {
         <FairlyContainer />
         <HeaderTopLine />
         <Modals />
-          <Component {...pageProps} />
+        <Component {...pageProps} />
         <Footer />
       </InitWrapper>
       <ToastContainer />
@@ -118,3 +119,4 @@ export default withRedux((initialState) => getOrCreateStore(initialState), {
   serializeState: (state = {}) => serializeWrapper(state, serialize),
   deserializeState: (state = serialize({})) => serializeWrapper(state, deserialize),
 })(MyApp)
+// export default MyApp

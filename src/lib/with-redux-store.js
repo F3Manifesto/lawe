@@ -9,10 +9,10 @@ export default function getOrCreateStore(initialState) {
   if (isServer) {
     return configureStore(initialState)
   }
-
   // Create store if unavailable on the client and set it on the window object
   if (!window[NEXT_REDUX_STORE]) {
     window[NEXT_REDUX_STORE] = configureStore(initialState)
   }
+  
   return window[NEXT_REDUX_STORE]
 }

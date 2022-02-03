@@ -19,7 +19,7 @@ module.exports = withImages({
     SENTRY_DSN,
     TIME_INTERVAL
   },
-  trailingSlash: true,
+  // trailingSlash: true,
   assetPrefix: './',
   webpack(cfg, { isServer }) {
     const originalEntry = cfg.entry;
@@ -36,7 +36,6 @@ module.exports = withImages({
         ws: 'empty',
       };
     }
-
     return cfg;
   },
 });

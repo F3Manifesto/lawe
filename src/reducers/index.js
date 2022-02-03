@@ -3,5 +3,5 @@ import global from './global.reducer'
 
 export default {
   modals: modals.reducer,
-  global: global.reduce
+  global: global.reducer
 }
