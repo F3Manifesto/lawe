@@ -1,0 +1,112 @@
+// body {
+// 	font-family: 'Nunito', sans-serif;
+// 	-moz-osx-font-smoothing: grayscale;
+// 	-webkit-font-smoothing: antialiased;
+// 	text-rendering: optimizeLegibility;
+// }
+
+$player-bg: #fff;
+$player-border-color: darken($player-bg, 12%);
+$player-link-color: darken($player-bg, 75%);
+$player-progress-color: $player-link-color;
+$player-text-color: $player-link-color;
+$player-timeline-color: $player-border-color;
+
+.player-wrapper {
+	align-items: center;
+	background-color: $player-bg;
+	background-image: linear-gradient(90deg, #fff 0, darken(#fff, 12%));
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+.wrapper {
+	background-color: $player-bg;
+	border-radius: 5px;
+	border: 1px solid $player-border-color;
+	box-shadow: 0 5px 8px rgba(0,0,0,0.15);
+	color: $player-text-color;
+	display: inline-block;
+	line-height: 1.5625;
+	position: relative;
+
+  a {
+    cursor: pointer;
+  }
+
+  .playerControls {
+    display: flex;
+    
+    > div {
+      border-right: 1px solid $player-border-color;
+      
+      &:last-child {
+        border-right: none;
+      }
+      
+      a {
+        color: $player-link-color;
+        display: block;
+        line-height: 0;
+        padding: 1em;
+        text-decoration: none;
+        
+        svg {
+          display: inline-block;
+          width: 1.125rem;
+        }
+      }
+    }
+  }
+}
+
+
+.playerTimeline {
+	background-color: $player-timeline-color;
+	height: 50%;
+	min-width: 200px;
+	position: relative;
+	
+	.playerProgress,
+	.playerSeeker {
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+	
+	.playerProgress {
+		background-color: $player-progress-color;
+		z-index: 1;
+	}
+	
+	.playerSeeker {
+		cursor: pointer;
+		width: 100%;
+		z-index: 2;
+	}
+}
+
+.playerTime {
+	display: flex;
+	justify-content: space-between;
+
+	.playerTimeCurrent {
+		font-weight: 700;
+		padding-left: 5px;
+	}
+
+	.playerTimeTotal {
+		opacity: 0.5;
+		padding-right: 5px;
+	}
+}
+
+.playerVolume {
+	display: inline-block;
+	height: 1.1rem;
+	margin: 0 0 0 2px;
+	width: 6rem;
+}

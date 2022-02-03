@@ -4,7 +4,6 @@ import React, { useEffect } from 'react'
 import Head from 'next/head'
 import { Provider, useDispatch, useSelector } from 'react-redux'
 import { toast, ToastContainer } from 'react-toastify'
-import LoadingOverlay from 'react-loading-overlay'
 import withRedux from 'next-redux-wrapper'
 import { deserialize, serialize } from 'json-immutable/lib'
 import PropTypes from 'prop-types'
@@ -24,15 +23,16 @@ import config from '../utils/config'
 import 'animate.css'
 import 'react-toastify/dist/ReactToastify.css'
 import '../assets/scss/global.scss'
+import '../styles/magritte.css'
 import '../styles/rug.css'
 
 
-if (config.SENTRY_DSN) {
-  Sentry.init({
-    dsn: config.SENTRY_DSN,
-    environment: config.ENVIRONMENT,
-  })
-}
+// if (config.SENTRY_DSN) {
+//   Sentry.init({
+//     dsn: config.SENTRY_DSN,
+//     environment: config.ENVIRONMENT,
+//   })
+// }
 
 const InitWrapper = (props) => {
   const dispatch = useDispatch()
@@ -51,16 +51,6 @@ const InitWrapper = (props) => {
   </div>
 }
 
-
-// const LoadingWrapper = ({ children }) => {
-//   // const isLoading = useSelector(getIsLoading)
-
-//   return (
-//     <LoadingOverlay active={isLoading} spinner>
-//       {children}
-//     </LoadingOverlay>
-//   )
-// }
 
 const MyApp = ({ Component, pageProps, store, err }) => {
   if (err) {

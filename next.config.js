@@ -1,6 +1,4 @@
 const {
-  STATIC_DOMAIN,
-  IS_PROD,
   ENVIRONMENT,
   SENTRY_DSN,
   TIME_INTERVAL
@@ -13,14 +11,16 @@ module.exports = withImages({
     domains: ['digitalax.imgix.net', 'digitalax.mypinata.cloud', 'espa.s3.eu-central-1.amazonaws.com'],
   },
   publicRuntimeConfig: {
-    STATIC_DOMAIN,
-    IS_PROD,
     ENVIRONMENT,
     SENTRY_DSN,
     TIME_INTERVAL
   },
   // trailingSlash: true,
-  assetPrefix: './',
+  // assetPrefix: './',
+  // future: { webpack5: true },
+  // eslint: {
+  //   ignoreDuringBuilds: true,
+  // },
   webpack(cfg, { isServer }) {
     const originalEntry = cfg.entry;
     cfg.entry = async () => {

@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: 'https://skins.digitalax.xyz',  
+  siteUrl: 'https://pw3r.au-deo.xyz',  
   generateRobotsTxt: true
 } 

@@ -55,8 +55,8 @@ class MyDocument extends Document {
             @font-face {
               font-family: "inter";
               font-display: swap;
-              src: url("./fonts/inter-400.woff2") format("woff2"),
-              url("./fonts/inter-400.woff") format("woff");
+              src: url("/fonts/inter-400.woff2") format("woff2"),
+              url("/fonts/inter-400.woff") format("woff");
               font-weight: normal;
               font-style: normal;
             } 
@@ -64,8 +64,8 @@ class MyDocument extends Document {
             @font-face {
               font-family: "inter";
               font-display: swap;
-              src: url("./fonts/inter-600.woff2") format("woff2"),
-              url("./fonts/inter-600.woff") format("woff");
+              src: url("/fonts/inter-600.woff2") format("woff2"),
+              url("/fonts/inter-600.woff") format("woff");
               font-weight: 600;
               font-style: normal;
             }
@@ -73,8 +73,8 @@ class MyDocument extends Document {
             @font-face {
               font-family: "inter";
               font-display: swap;
-              src: url("./fonts/inter-700.woff2") format("woff2"),
-                url("./fonts/inter-700.woff") format("woff");
+              src: url("/fonts/inter-700.woff2") format("woff2"),
+                url("/fonts/inter-700.woff") format("woff");
               font-weight: 700;
               font-style: normal;
             }
@@ -82,8 +82,8 @@ class MyDocument extends Document {
             @font-face {
               font-family: "inter";
               font-display: swap;
-              src: url("./fonts/inter-800.woff2") format("woff2"),
-                url("./fonts/inter-800.woff") format("woff");
+              src: url("/fonts/inter-800.woff2") format("woff2"),
+                url("/fonts/inter-800.woff") format("woff");
               font-weight: 800;
               font-style: normal;
             }
@@ -91,67 +91,67 @@ class MyDocument extends Document {
             @font-face {
               font-family: "inter";
               font-display: swap;
-              src: url("./fonts/inter-900.woff2") format("woff2"),
-                url("./fonts/inter-900.woff") format("woff");
+              src: url("/fonts/inter-900.woff2") format("woff2"),
+                url("/fonts/inter-900.woff") format("woff");
               font-weight: 900;
               font-style: normal;
             }
 
             @font-face {
               font-family: "Internal Rainbows";
-              src: url("./fonts/Internal Rainbows.otf");
+              src: url("/fonts/Internal Rainbows.otf");
               font-weight: 400;
             }
 
             @font-face {
               font-family: "Gilroy";
-              src: url("./fonts/Gilroy-Light.otf");
+              src: url("/fonts/Gilroy-Light.otf");
               font-weight: 400;
             }
             
             @font-face {
               font-family: "Gilroy";
-              src: url("./fonts/Gilroy-ExtraBold.otf");
+              src: url("/fonts/Gilroy-ExtraBold.otf");
               font-weight: 700;
             }
             
             @font-face {
               font-family: "Gilroy";
-              src: url("./fonts/Gilroy-ExtraBold.otf");
+              src: url("/fonts/Gilroy-ExtraBold.otf");
               font-weight: 900;
             }
             @font-face {
               font-family: "Armata-Regular";
-              src: url("./fonts/Armata-Regular.ttf");
+              src: url("/fonts/Armata-Regular.ttf");
               font-weight: 400;
             }
             @font-face {
               font-family: "Animosa";
-              src: url("./fonts/Animosa-Regular.otf");
+              src: url("/fonts/Animosa-Regular.otf");
               font-weight: 400;
             }
             
             @font-face {
               font-family: "Bebas Neue";
-              src: url("./fonts/BebasNeue-Regular.ttf");
+              src: url("/fonts/BebasNeue-Regular.ttf");
               font-weight: 400;
             }
 
             @font-face {
               font-family: "m12";
-              src: url("./fonts/m12.TTF");
+              src: url("/fonts/m12.TTF");
               font-weight: 400;
             }
 
             @font-face {
               font-family: "Trans America";
-              src: url("./fonts/transamerica.ttf");
+              src: url("/fonts/transamerica.ttf");
               font-weight: 400;
             }
 
             @font-face {
               font-family: "PiratesBlackbeard";
-              src: url("./fonts/PIRATESBLACKBEARD.TTF");
+              src: url("/fonts/PIRATESBLACKBEARD.TTF");
             }
           
           `,
