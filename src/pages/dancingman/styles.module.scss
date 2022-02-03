@@ -1,3 +1,5 @@
+@import '../../assets/scss/helpers/grid.scss';
+
 .wrapper {
   background: #DBFF00;
   display: flex;
@@ -6,20 +8,33 @@
   align-items: center;
 
   h1 {
-    padding-top: 7vw;
-    padding-bottom: 2vw;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 40px;
+
     width: 80%;
     font-family: PiratesBlackbeard;
     font-style: normal;
     font-weight: 900;
-    font-size: 5.2vw;
     line-height: 100%;
     text-align: center;
     
-    color: #000000;    
+    color: #000000;
   }
 
   .dancingManImage {
     margin-bottom: 5vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include sm-width {
+    h1 {
+      padding-top: 7vw;
+      padding-bottom: 2vw;
+      font-size: 5.2vw;
+    }
   }
 }

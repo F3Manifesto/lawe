@@ -1,5 +1,7 @@
+@import '../../assets/scss/helpers/grid.scss';
+
 .button {
-  font-size: 1.2vw;
+  font-size: 15px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -45,6 +47,10 @@
 
   &:hover {
     box-shadow: 0px 12px 12px 0 #5c5c5c;
+  }
+
+  @include sm-width {
+    font-size: 1.2vw;
   }
 }
 

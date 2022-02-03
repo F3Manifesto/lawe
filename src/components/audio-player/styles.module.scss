@@ -1,3 +1,4 @@
+@import '../../assets/scss/helpers/grid.scss';
 // body {
 // 	font-family: 'Nunito', sans-serif;
 // 	-moz-osx-font-smoothing: grayscale;
@@ -65,8 +66,12 @@ $player-timeline-color: $player-border-color;
 .playerTimeline {
 	background-color: $player-timeline-color;
 	height: 50%;
-	min-width: 200px;
+	min-width: 120px;
 	position: relative;
+
+  @include sm-width {
+    min-width: 200px;
+  }
 	
 	.playerProgress,
 	.playerSeeker {

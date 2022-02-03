@@ -1,3 +1,5 @@
+@import '../../../assets/scss/helpers/grid.scss';
+
 .wrapper {
 
   .topPart {
@@ -9,36 +11,36 @@
 
     h1 {
       font-family: PiratesBlackbeard;
-      // font-style: normal;
-      // font-weight: 900;
-      font-size: 5.2vw;
+      font-style: normal;
+      font-weight: 900;
       line-height: 100%;
       text-align: center;
-      
       color: #000000;
-      padding-top: 4.6vw;
+      font-size: 40px;
+      padding-top: 40px;
+
     }
   
     .description {
       font-family: Gilroy;
       font-style: normal;
       font-weight: 800;
-      font-size: 1.04vw;
       line-height: 125%;
       text-align: center;
       width: 75%;
-      margin-top: 5vw;
-      margin-bottom: 5vw;
       color: #000000;
+
+      font-size: 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 
     .clickMe {
       background-color: white;
-      position: absolute;
-      width: 10vw;
-      height: 2.6vw;
-      right: 10.6vw;
-      top: 6vw;
+      position: relative;
+      width: 100px;
+      height: 26px;
+      margin-top: 80px;  
 
       .clickMeButton {
         width: 100%;
@@ -47,7 +49,34 @@
     }
 
     .audioPlayerWrapper {
-      margin-top: 100px;
+      margin-top: 50px;
+    }
+
+    @include sm-width {
+      h1 {
+        font-size: 5.2vw;
+        padding-top: 4.6vw;
+        padding-top: 80px;
+
+      }
+
+      .clickMe {
+        position: absolute;
+        width: 10vw;
+        height: 2.6vw;
+        right: 10.6vw;
+        top: 6vw;        
+      }
+
+      .audioPlayerWrapper {
+        margin-top: 100px;
+      }
+
+      .description {
+        font-size: 1.04vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+      }
     }
   }
 }

@@ -24,6 +24,16 @@ const AudioPlayPage = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.topPart}>
+        <div className={styles.clickMe}>
+          <OldButton
+            text='Click Me'
+            className={styles.clickMeButton}
+            onClick={() => {
+              window.open('/dancingman', '_self')
+            }}
+          />
+        </div>
+
         <h1>
           {getDateString(playItem.date)}
         </h1>
@@ -36,15 +46,7 @@ const AudioPlayPage = () => {
           { playItem.description }
         </div>
 
-        <div className={styles.clickMe}>
-          <OldButton
-            text='Click Me'
-            className={styles.clickMeButton}
-            onClick={() => {
-              window.open('/dancingman', '_self')
-            }}
-          />
-        </div>
+       
       </div>
       <Magritte />
     </div>

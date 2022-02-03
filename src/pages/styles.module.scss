@@ -52,11 +52,16 @@
   }
 
   .contentWrapper {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 100px;
     justify-content: center;
     display: flex;
+
+    @include sm-width {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
 
     .description {
       font-family: Gilroy;
