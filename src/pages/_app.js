@@ -63,7 +63,7 @@ const MyApp = ({ Component, pageProps, store, err }) => {
   return (
     <Provider store={store}>
       <Head>
-        <title>Digitalax - Web3 Fashion Economy</title>
+        <title>AU.DEO - PW3R Pirate web3 radio</title>
         <link rel="icon" type="image/png" href="/images/icons/favicon-digitalax.ico" />
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
       </Head>

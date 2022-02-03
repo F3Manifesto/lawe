@@ -20,10 +20,10 @@ const LandingPage = () => {
 
   const structuredData = {
     '@context': 'http://schema.org',
-    '@type': 'Skins Landing page',
-    title: 'Digitalax - Web3 Fashion Economy',
+    '@type': 'PW3R Pirate web3 radio',
+    title: 'AU.DEO - PW3R Pirate web3 radio',
     description:
-      'Take your digital fashion skins to the next level: directly into indie games & mods, where players from amateur to pro can start to earn a livelihood through play, without sacrificing our love of the game. ESPA is the first casual esports platform, with direct integration with DIGITALAX NFT skins on Matic Network. ',
+      'AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet.',
   }
 
   // console.log('products: ', products)
@@ -33,20 +33,20 @@ const LandingPage = () => {
       <Head>
         <meta
           name="description"
-          content="Take your digital fashion skins to the next level: directly into indie games & mods, where players from amateur to pro can start to earn a livelihood through play, without sacrificing our love of the game. ESPA is the first casual esports platform, with direct integration with DIGITALAX NFT skins on Matic Network. "
+          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
         />
-        <meta property="og:title" content="Digitalax - Patron Web3 Fashion Realms" />
+        <meta property="og:title" content="AU.DEO - PW3R Pirate web3 radio" />
         <meta
           property="og:description"
-          content="Take your digital fashion skins to the next level: directly into indie games & mods, where players from amateur to pro can start to earn a livelihood through play, without sacrificing our love of the game. ESPA is the first casual esports platform, with direct integration with DIGITALAX NFT skins on Matic Network. "
+          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
         />
-        <meta property="og:url" content="https://marketplace.digitalax.xyz" />
+        <meta property="og:url" content="https://pw3r.au-deo.xyz/" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@ESPA4play" />
+        <meta name="twitter:site" content="@AU.DEO" />
         <meta name="twitter:title" content="Patrons Landing page" />
         <meta
           name="twitter:description"
-          content="Take your digital fashion skins to the next level: directly into indie games & mods, where players from amateur to pro can start to earn a livelihood through play, without sacrificing our love of the game. ESPA is the first casual esports platform, with direct integration with DIGITALAX NFT skins on Matic Network. "
+          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
         />
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
         <script
