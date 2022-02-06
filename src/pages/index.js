@@ -20,8 +20,13 @@ const LandingPage = () => {
 
   const structuredData = {
     '@context': 'http://schema.org',
+<<<<<<< HEAD
     '@type': 'LAWE Live At the World's Edge'
     title: 'LAWE- Live At the World's Edge'
+=======
+    '@type': 'LAWE Live At the Worlds Edge',
+    title: 'LAWE- Live At the Worlds Edge',
+>>>>>>> 0bf02f534239af8144deb3f56239eee62bac30bf
     description:
       'LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers.',
   },
