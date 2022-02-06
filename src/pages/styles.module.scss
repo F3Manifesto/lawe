@@ -1,7 +1,7 @@
 @import '.../../../assets/scss/helpers/grid.scss';
 
 .wrapper {
-  background-color: #DBFF00;
+  background-color: #4200FF;
   background-size: 100%;
   background-repeat: repeat;
   color: black;
@@ -25,17 +25,17 @@
 
 
     .title {
-      font-family: PiratesBlackbeard;
-      font-style: normal;
+      font-family: Underground;
+      font-style: regular;
       font-weight: 900;
       font-size: 140px;
       line-height: 100%;
-      color: #000000;
+      color: #FFFFFF;
     }
 
     p {
-      font-family: PiratesBlackbeard;
-      font-weight: bold;
+      font-family: Underground;
+      font-weight: regular;
       font-size: 30px;
       line-height: 100%;
     }
