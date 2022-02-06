@@ -24,7 +24,7 @@ const LandingPage = () => {
     title: 'LAWE- Live At the Worlds Edge,
     description:
       'LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers.',
-  }
+  },
 
   // console.log('products: ', products)
 
