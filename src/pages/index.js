@@ -20,8 +20,8 @@ const LandingPage = () => {
 
   const structuredData = {
     '@context': 'http://schema.org',
-    '@type': 'LAWE Live At the World's Edge',
-    title: 'LAWE- Live At the World's Edge,
+    '@type': 'LAWE Live At the Worlds Edge',
+    title: 'LAWE- Live At the Worlds Edge,
     description:
       'LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers.',
   }
@@ -56,10 +56,14 @@ const LandingPage = () => {
       </Head>
       <section className={[styles.titleWrapper].join(' ')}>
         <div className={styles.title}>
+          
           LAWE
+
         </div>
         <p>
+          
           Live At the World's Edge
+
         </p>
       </section>
 
