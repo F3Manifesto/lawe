@@ -28,15 +28,18 @@
       font-family: Underground;
       font-style: regular;
       font-weight: 900;
-      font-size: 140px;
+      font-size: 100px;
       line-height: 100%;
       color: #FFFFFF;
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 6.5px;
+      -webkit-text-stroke-color: black;
     }
 
     p {
       font-family: Underground;
       font-weight: regular;
-      font-size: 30px;
+      font-size: 20px;
       line-height: 100%;
     }
 
