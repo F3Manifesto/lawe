@@ -23,7 +23,7 @@ const LandingPage = () => {
     '@type': 'LAWE Live At the World's Edge',
     title: 'LAWE- Live At the World's Edge,
     description:
-      'AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet.',
+      'LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers.',
   }
 
   // console.log('products: ', products)
@@ -33,7 +33,7 @@ const LandingPage = () => {
       <Head>
         <meta
           name="description"
-          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
+          content="LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers."
         />
         <meta property="og:title" content="LAWE- Live At the World's Edge" />
         <meta
@@ -56,10 +56,10 @@ const LandingPage = () => {
       </Head>
       <section className={[styles.titleWrapper].join(' ')}>
         <div className={styles.title}>
-          PW3R
+          LAWE
         </div>
         <p>
-          Pirate web3 radio
+          Live At the World's Edge
         </p>
       </section>
 
