@@ -20,8 +20,8 @@ const LandingPage = () => {
 
   const structuredData = {
     '@context': 'http://schema.org',
-    '@type': 'PW3R Pirate web3 radio',
-    title: 'AU.DEO - PW3R Pirate web3 radio',
+    '@type': 'LAWE Live At the World's Edge',
+    title: 'LAWE- Live At the World's Edge,
     description:
       'AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet.',
   }
@@ -35,18 +35,18 @@ const LandingPage = () => {
           name="description"
           content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
         />
-        <meta property="og:title" content="AU.DEO - PW3R Pirate web3 radio" />
+        <meta property="og:title" content="LAWE- Live At the World's Edge" />
         <meta
           property="og:description"
-          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
+          content="LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers."
         />
         <meta property="og:url" content="https://pw3r.au-deo.xyz/" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@AU.DEO" />
+        <meta name="twitter:site" content="@LAWE" />
         <meta name="twitter:title" content="Patrons Landing page" />
         <meta
           name="twitter:description"
-          content="AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet."
+          content="LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers."
         />
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
         <script
@@ -65,7 +65,7 @@ const LandingPage = () => {
 
       <section className={styles.contentWrapper}>
         <a href='/tunein'>
-        <RegratsTitleCard title='write TUNE IN' />
+        <RegratsTitleCard title='TUNE IN' />
         </a>
       </section>
       
