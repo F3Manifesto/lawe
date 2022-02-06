@@ -1,7 +1,7 @@
 @import '../../assets/scss/helpers/grid.scss';
 
 .wrapper {
-  background: #DBFF00;
+  background: #ffffff;
 
   .titleWrapper {
     position: relative;
@@ -20,8 +20,8 @@
 
 
     .title {
-      font-family: PiratesBlackbeard;
-      font-style: normal;
+      font-family: Underground;
+      font-style: regular;
       font-weight: 900;
       font-size: 140px;
       line-height: 100%;
@@ -29,8 +29,8 @@
     }
 
     p {
-      font-family: PiratesBlackbeard;
-      font-weight: bold;
+      font-family: Underground;
+      font-weight: regular;
       font-size: 30px;
       line-height: 100%;
     }
@@ -46,7 +46,7 @@
       text-align: center;
       width: 85%;
       
-      color: #000000;
+      color: #ffffff;
       
       span {
         font-weight: 800;
@@ -77,8 +77,8 @@
     h1 {  
       z-index: 1;
       position: relative;
-      font-family: PiratesBlackbeard;
-      font-style: normal;
+      font-family: Underground;
+      font-style: regular;
       font-weight: 900;
       font-size: 50px;
 
