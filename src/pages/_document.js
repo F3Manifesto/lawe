@@ -153,6 +153,17 @@ class MyDocument extends Document {
               font-family: "PiratesBlackbeard";
               src: url("/fonts/PIRATESBLACKBEARD.TTF");
             }
+
+            @font-face {
+              font-family: "Underground";
+              src: url("/fonts/Underground.ttf");
+            }
+
+            @font-face {
+              font-family: "Lemon Milk";
+              font-weight: 400;
+              src: url("/fonts/LEMONMILK-Regular.otf");
+            }
           
           `,
             }}

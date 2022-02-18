@@ -6,7 +6,7 @@ const DancingManPage = () => {
   return (
     <div className={styles.wrapper}>
       <h1>
-        YOU FOUND THE PW3R DANCING MANNNNNNN
+        YOU FOUND THE LAWE funk meme
       </h1>
       <div className={styles.dancingManImage}>
         <Image

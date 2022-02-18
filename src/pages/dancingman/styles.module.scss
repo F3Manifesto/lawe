@@ -1,7 +1,7 @@
 @import '../../assets/scss/helpers/grid.scss';
 
 .wrapper {
-  background: #DBFF00;
+  background: #4200FF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,13 +13,13 @@
     font-size: 40px;
 
     width: 80%;
-    font-family: PiratesBlackbeard;
+    font-family: Underground;
     font-style: normal;
     font-weight: 900;
-    line-height: 100%;
+    line-height: 150%;
     text-align: center;
     
-    color: #000000;
+    color: #FFFFFF;
   }
 
   .dancingManImage {
@@ -34,7 +34,7 @@
     h1 {
       padding-top: 7vw;
       padding-bottom: 2vw;
-      font-size: 5.2vw;
+      font-size: 3.12vw;
     }
   }
 }

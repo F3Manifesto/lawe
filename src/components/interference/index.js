@@ -4,6 +4,7 @@ import styles from './styles.module.scss'
 const Interference = () => {
 
   useEffect(() => {
+    // const animCanvas = getDocumentById('animCanvas')
     const canvasContext = animCanvas.getContext("2d",{ alpha: false })
     const ff=255
     const mb=Math.max(innerWidth,innerHeight)<800
@@ -12,6 +13,7 @@ const Interference = () => {
     //I=new ImageData(W,H)
     let I=canvasContext.createImageData(W,H)
     onresize=function(){
+      if (!animCanvas) return
       if(mb&&W==animBack.clientWidth)return
       W=animCanvas.width=(animBack.clientWidth/(mb?2:3))|0
       H=animCanvas.height=(animBack.clientHeight/(mb?2:3))|0

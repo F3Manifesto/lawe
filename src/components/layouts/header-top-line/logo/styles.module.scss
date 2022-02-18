@@ -2,6 +2,11 @@
 
 .wrapper:hover {
   @include active();
+
+  .logoImage {
+    width: 78px;
+    height: 63px;    
+  }
 }
 
 .description {

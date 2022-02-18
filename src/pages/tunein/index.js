@@ -14,22 +14,20 @@ const Tunein = () => {
     <div className={styles.wrapper}>
       <div className={styles.titleWrapper}>
         <div className={styles.title}>
-          PW3R
+          LAWE
         </div>
         <p>
-          Pirate web3 radio
+          live at the world’s edge
         </p>
         <div className={styles.description}>
-          Welcome to PW3R, the highest fidelity Pirate Web3 Radio.
+          Coming to you live from key auxillary satellites around NYC, LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers— everything from EDM, to urban hip hop to slam poetry and more.  
           <br /><br />
-          From the heights of the underground we are bringing you the latest and greatest music x fashion collaborations, entirely indie, enticingly original, all too loud to put down.
+          Turn up the volume and tune out the noise as we stream the sounds, stories and skills the old broadcast shills don't want you to hear. 
           <br /><br />
-          Turn that sweet dial beyond 11 to number go up. Like, way up. PW3R has start streaming into revolutionary pocket radio receivers and the earbuds of all who just want to catch that vibe.
-          <br /><br />
-          All streamed songs have been CC0 open sourced to the AU.DEO Treasury Vault by native web3 music pioneers.
+          Jack in that VPN Aux, you're bluetooth speaker is about get heated. 
           <br /><br />
           <span>
-            AU.DEO focuses on open source and CC0 as a breakaway statement and essential embrace of the power open content and culture have that inspires people to move like they mean it, while annoying the hell out of the old control freaks that would rather we all just know our place and keep quiet.
+            Welcome to PW3R, the highest fidelity Pirate Web3 Radio.
           </span>
         </div>
       </div>

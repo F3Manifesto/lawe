@@ -8,10 +8,11 @@ import styles from './styles.module.scss'
 const Logo = ({ className, black }) => (
   <Link href={INDEX_PATH}>
     <a className={cn(className, styles.wrapper)}>
-      <p className={styles.logo} style={{ color: black ? 'black' : 'white' }}>
+      <img className={styles.logoImage} src='/images/logo.png' alt='logo' />
+      {/* <p className={styles.logo} style={{ color: black ? 'black' : 'white' }}>
         {' '}
         AU.DEO{' '}
-      </p>
+      </p> */}
       {/* <p className={styles.description}>Web3 Fashion Economy</p> */}
     </a>
   </Link>
