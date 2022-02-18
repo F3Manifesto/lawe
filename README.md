@@ -1,4 +1,4 @@
-# PW3R Frontend
+# LAWE Frontend
 Built based on next.js
 
 ### Installation
