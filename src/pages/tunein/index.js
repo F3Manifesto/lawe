@@ -27,7 +27,7 @@ const Tunein = () => {
           Jack in that VPN Aux, you're bluetooth speaker is about get heated. 
           <br /><br />
           <span>
-            Welcome to PW3R, the highest fidelity Pirate Web3 Radio.
+            You're listening to the web3 cc0 Jukebox.
           </span>
         </div>
       </div>
