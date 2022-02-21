@@ -40,7 +40,7 @@ const LandingPage = () => {
           property="og:description"
           content="LAWE is the web3 underground free radio. With a new session streamed late night every week, we bring open source nomadic tunes from curated NFT music artists and storytellers."
         />
-        <meta property="og:url" content="https://pw3r.au-deo.xyz/" />
+        <meta property="og:url" content="https://lawe.f3manifesto.xyz/" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@LAWE" />
         <meta name="twitter:title" content="Patrons Landing page" />
