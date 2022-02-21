@@ -10,7 +10,7 @@ const DancingManPage = () => {
       </h1>
       <div className={styles.dancingManImage}>
         <Image
-          src='/images/funkmeme.gif'
+          src='/images/funkmeme.jpeg'
           width='650'
           height='650'
         />
