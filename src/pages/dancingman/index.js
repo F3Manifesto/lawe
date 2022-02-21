@@ -6,11 +6,11 @@ const DancingManPage = () => {
   return (
     <div className={styles.wrapper}>
       <h1>
-        YOU FOUND THE LAWE funk meme
+        YOU FOUND THE LAWE FUNK MEME
       </h1>
       <div className={styles.dancingManImage}>
         <Image
-          src='/images/dancingman.gif'
+          src='/images/funkmeme.gif'
           width='650'
           height='650'
         />
