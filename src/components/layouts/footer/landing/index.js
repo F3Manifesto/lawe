@@ -11,7 +11,7 @@ const LandingFooter = () => {
         
         <div className={styles.centerWrapper}>
           <div className={styles.description}>
-            Reach out across any of our social media channels to get more involved with the manifesto, web3 fashion & the open metaverse. ALL ENGINEERING AND ARCHITECTURE IS FORKED FROM THE DIGITALAX OPEN SOURCE PROTOCOL STACK.
+            Reach out across any of our social media channels to get more involved with the manifesto, cc0 web3 fashion & the open metaverse. ALL ENGINEERING AND ARCHITECTURE IS FORKED FROM THE DIGITALAX OPEN SOURCE PROTOCOL STACK.
           </div>
 
           <div className={[styles.dFlex, styles.iconsLine].join(' ')}>
@@ -22,35 +22,35 @@ const LandingFooter = () => {
                 className={'facebook-icon'}
               />
             </a> */}
-            <a href="https://www.tiktok.com/@digitalax?" target="_blank">
+            <a href="https://www.tiktok.com/@f3manifesto" target="_blank">
               <img
                 src="/images/social-icons/tiktok.svg"
                 alt="tiktok-icon"
                 className={styles.tiktokIcon}
               />
             </a>
-            <a href="https://www.youtube.com/channel/UCOq_pNlxwn8laaTO1NG3YgQ" target="_blank">
+            <a href="https://www.youtube.com/channel/UC5SOYiDrdooqNusoS5vrJAw" target="_blank">
               <img
                 src="/images/social-icons/youtube.svg"
                 alt="youtube-icon"
                 className={styles.youtubeIcon}
               />
             </a>
-            <a href="https://medium.com/@AU.DEO" target="_blank">
+            <a href="https://f3manifesto.medium.com/" target="_blank">
               <img
                 src="/images/social-icons/medium.png"
                 alt="medium-icon"
                 className={styles.mediumIcon}
               />
             </a>
-            <a href="https://mirror.xyz/0x886Bff470E239333fFA524e32796d489A7f33531" target="_blank">
+            <a href="https://mirror.xyz/f3manifesto.eth" target="_blank">
               <img
                 src="/images/social-icons/mirror.png"
                 alt="mirror-icon"
                 className={styles.mirrorIcon}
               />
             </a>
-            <a href="https://twitter.com/au_deo" target="_blank">
+            <a href="https://twitter.com/f3manifesto" target="_blank">
               <img
                 src="/images/social-icons/twitter.png"
                 alt="twitter-icon"
@@ -103,7 +103,7 @@ const LandingFooter = () => {
           </div>
 
           <div className={[styles.dFlex, styles.aboutLine].join(' ')}>
-            <a href="https://docs.au-deo.xyz/" target="_blank">
+            <a href="https://docs.f3manifesto.xyz/" target="_blank">
               SEE ALL DOCUMENTATION
             </a>
           </div>
