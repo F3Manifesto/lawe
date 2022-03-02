@@ -15,13 +15,6 @@ const LandingFooter = () => {
           </div>
 
           <div className={[styles.dFlex, styles.iconsLine].join(' ')}>
-            {/* <a href="https://www.facebook.com/digitalax1" target="_blank">
-              <img
-                src="/images/social-icons/facebook.svg"
-                alt="facebook-icon"
-                className={'facebook-icon'}
-              />
-            </a> */}
             <a href="https://www.tiktok.com/@f3manifesto" target="_blank">
               <img
                 src="/images/social-icons/tiktok.svg"
@@ -55,44 +48,16 @@ const LandingFooter = () => {
                 src="/images/social-icons/twitter.png"
                 alt="twitter-icon"
                 className={'twitter-icon'}
-              />
+              /> 
             </a>
-            {/* <a href="https://www.instagram.com/au.deo/" target="_blank">
+            <a href="https://docs.f3manifesto.xyz/" target="_blank">
               <img
-                src="/images/social-icons/instagram.svg"
-                alt="instagram-icon"
-                className={'instagram-icon'}
-              />
-            </a> */}
-            {/* <a href="https://www.linkedin.com/company/digitalax-digital-fashion/" target="_blank">
-              <img
-                src="/images/social-icons/linkedin.png"
-                alt="linkedin-icon"
-                className={styles.linkedinIcon}
-              />
-            </a> */}
+                src="/images/social-icons/gitbook.png"
+                alt="gitbook-icon"
+                className={'gitbook-icon'}
+              /> 
+            </a>
 
-            {/* <a href="https://www.twitch.tv/digitalax" target="_blank">
-              <img
-                src="/images/social-icons/twitch.svg"
-                alt="twitch-icon"
-                className={styles.twitchIcon}
-              />
-            </a> */}
-            {/* <a href="https://discord.com/invite/Hfuta2BShk" target="_blank">
-              <img
-                src="/images/social-icons/discord.svg"
-                alt="discord-icon"
-                className={styles.discordIcon}
-              />
-            </a> */}
-            {/* <a href="https://www.reddit.com/r/DIGITALAX/" target="_blank">
-              <img
-                src="/images/social-icons/reddit.svg"
-                alt="reddit-icon"
-                className="reddit-icon"
-              />
-            </a> */}
             {/* <a href="https://t.me/digitalaxannouncements" target="_blank">
               <img
                 src="/images/social-icons/telegram.png"
@@ -102,11 +67,13 @@ const LandingFooter = () => {
             </a> */}
           </div>
 
-          <div className={[styles.dFlex, styles.aboutLine].join(' ')}>
+     {/*  <div className={[styles.dFlex, styles.aboutLine].join(' ')}>
             <a href="https://docs.f3manifesto.xyz/" target="_blank">
               SEE ALL DOCUMENTATION
             </a>
           </div>
+          */}
+
         </div>
       </div>
     </footer>
@@ -114,3 +81,4 @@ const LandingFooter = () => {
 }
 
 export default LandingFooter
+
