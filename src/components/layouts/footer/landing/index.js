@@ -47,14 +47,14 @@ const LandingFooter = () => {
               <img
                 src="/images/social-icons/twitter.png"
                 alt="twitter-icon"
-                className={'twitter-icon'}
+                className={styles.twitterIcon}
               /> 
             </a>
             <a href="https://docs.f3manifesto.xyz/" target="_blank">
               <img
                 src="/images/social-icons/gitbook.png"
                 alt="gitbook-icon"
-                className={'gitbook-icon'}
+                className={styles.gitbookIcon}
               /> 
             </a>
 
