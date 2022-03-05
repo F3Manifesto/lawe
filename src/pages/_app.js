@@ -64,7 +64,7 @@ const MyApp = ({ Component, pageProps, store, err }) => {
     <Provider store={store}>
       <Head>
         <title>LAWE - Live At the World's Edge</title>
-        <link rel="icon" type="image/png" href="/images/icons/favicon-digitalax.ico" />
+        <link rel="icon" type="image/png" href="/images/icons/favicon.ico" />
         <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
       </Head>
       <InitWrapper>
