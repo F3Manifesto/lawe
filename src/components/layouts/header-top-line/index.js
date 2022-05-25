@@ -8,14 +8,14 @@ const HeaderTopLine = () => {
       <div className={styles.wrapper}>
         <img src="/images/logo.png" className={styles.logo} />
         <div className={styles.links}>
-          <a href="https://docs.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
-            DOCUMENTATION
+          <a href="https://f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+            Home Port
           </a>
-          <a href="https://docs.f3manifesto.xyz/web3-fashion-manifesto/map" className={styles.link} target="_blank" rel="noreferrer">
+          <a href="https://web3fashionmanifesto.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             Web3 Fashion manifesto
           </a>
-          <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
-            Sub-thread weekly
+          <a href="https://docs.f3manifesto.xyz" className={styles.link} target="_blank" rel="noreferrer">
+            Documentation
           </a>
           <a href="https://themanifest.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
             The Manifest Gallery
@@ -33,14 +33,14 @@ const HeaderTopLine = () => {
       {show && (
         <div className={styles.mobileWrapper}>
           <div className={styles.links}>
-            <a href="https://docs.f3manifesto.xyz" className={styles.link} target="_blank" rel="noreferrer">
+            <a href="https://f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
               DOCUMENTATION
             </a>
-            <a href="https://docs.f3manifesto.xyz/web3-fashion-manifesto/map" className={styles.link} target="_blank" rel="noreferrer">
+            <a href="https://web3fashionmanifesto.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
               Web3 Fashion manifesto
             </a>
-            <a href="https://mirror.xyz/f3manifesto.eth" className={styles.link} target="_blank" rel="noreferrer">
-              Sub-thread weekly
+            <a href="https://docs.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
+              Documentation
             </a>
             <a href="https://themanifest.f3manifesto.xyz/" className={styles.link} target="_blank" rel="noreferrer">
               The Manifest Gallery
